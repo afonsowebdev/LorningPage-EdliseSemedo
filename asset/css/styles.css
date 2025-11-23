@@ -1,0 +1,130 @@
+section.hero {
+    div.content {
+        width: 50%;
+        padding: 20px;   
+        animation: fadeInUp 1s ease forwards;
+
+        h4.hero__profession {
+            font-size: 0.95rem;
+            font-weight: 400;
+            color: var(--color-suave-6);
+        }
+
+        h1.hero__name {
+            font-size: 2.5rem;
+            font-weight: 700;
+            color: var(--color-suave-3);
+
+            span.hero__span {
+                color: var(--color-suave-2);
+            }
+        }
+
+        p.hero__description {
+            font-size: 1.1rem;
+            font-weight: 300;
+            color: var(--color-suave-6);
+            line-height: 1.6;
+        }
+
+        div.hero__btn-group {
+            margin-top: 20px;
+
+            display: flex;
+            gap: 10px;
+
+            a {
+                text-decoration: none;
+                padding: 10px 20px;
+                border-radius: 5px;
+                font-size: 1rem;
+                font-weight: 500;
+                transition: background-color 0.3s, color 0.3s;
+
+                display: inline-flex;
+                align-items: center;
+                justify-content: center;
+                gap: 5px;
+
+            }
+
+            a.hero__btn-secondary {
+                background-color: var(--color-suave-2);
+                color: #fff;
+
+                &:hover {
+                    background-color: #a67c4f;
+                }
+            }
+        }
+
+        div.hero__social-media {
+            margin-top: 15px;
+
+            a.hero__social-link {
+                text-decoration: none;
+                color: #555;
+                font-size: 1.5rem;
+                background-color: #0056b3;
+                padding: 8px;
+                border-radius: 50%;
+
+                display: inline-flex;
+                align-items: center;
+                justify-content: center;
+
+                i {
+                    pointer-events: none;
+                }
+
+                &.linkedin {
+                    background-color: #0A66C2;
+                    color: #fff;
+                    transition: all 0.3s ease-in-out;
+
+                    &:hover {
+                        background-color: #084d91;
+                    }
+                }
+
+                &.facebook {
+                    background-color: #3b5998;
+                    color: #fff;
+                    transition: all 0.3s ease-in-out;
+
+                    &:hover {
+                        background-color: #2d4373;
+                    }
+                }
+
+                &.instagram {
+                    background-color: #E1306C;
+                    color: #fff;
+                    transition: all 0.3s ease-in-out;
+
+                    &:hover {
+                        background-color: #c3285c;
+                    }
+                }
+            }
+        }
+    }
+
+    div.hero__image {
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        animation: fadeInUp 1s ease forwards;
+
+        max-width: 40%;
+
+        img.hero__img-profile {
+            width: 300px;
+            height: auto;
+            border-radius: 10px;
+            object-fit: cover;
+            box-shadow: 0 4px 8px rgba(255, 255, 255, 0.1);
+        }
+    }
+}
