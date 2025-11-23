@@ -7,16 +7,16 @@ section.hero {
         h4.hero__profession {
             font-size: 0.95rem;
             font-weight: 400;
-            color: var(--color-suave-6);
+            color: var(--color-suave-1);
         }
 
         h1.hero__name {
             font-size: 2.5rem;
             font-weight: 700;
-            color: var(--color-suave-3);
+            color: var(--color-suave-2);
 
             span.hero__span {
-                color: var(--color-suave-2);
+                color: var(--color-suave-1);
             }
         }
 
@@ -49,11 +49,11 @@ section.hero {
             }
 
             a.hero__btn-secondary {
-                background-color: var(--color-suave-2);
+                background-color: var(--color-suave-1);
                 color: #fff;
 
                 &:hover {
-                    background-color: #a67c4f;
+                    background-color: var(--color-suave-1-hover);
                 }
             }
         }

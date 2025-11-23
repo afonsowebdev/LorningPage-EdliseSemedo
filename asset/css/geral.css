@@ -6,7 +6,7 @@
 }
 
 body {
-    background-color: #ffffff;
+    background-color: var(--color-suave-3);
     color: var(--color-suave-6);
     font-size: 16px;
     line-height: 1.6;
